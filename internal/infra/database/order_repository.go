@@ -3,6 +3,8 @@ package database
 import (
 	"database/sql"
 	"gofullcycle/internal/entity"
+
+	_ "github.com/lib/pq"
 )
 
 type OrderRepository struct {
